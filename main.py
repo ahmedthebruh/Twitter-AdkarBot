@@ -3,10 +3,10 @@ import random
 import time
 import tweepy
 #استبدل الاكس بالمفاتيح الخاصة بحسابك
-consumer_key = 'xxxxx'
-consumer_secret = 'xxxxx'
-access_token= "xxxxx"
-access_secret = "xxxxxx"
+consumer_key = 'R0KVn8V2Hdv5e1hSaiMM2QOI6'
+consumer_secret = 'ZjrHNt8u5tEGotcqBzFVV1w5VhPlNuYArRjc6NlGT2cSlGBgDi'
+access_token= "1527295383432335360-mkpUXXBBZG3ZGTrU330MwMs9IpDIFc"
+access_secret = "QLDCrJ1wLClW9vaWIelNIaULAsN5ONTuQdrHORaLXaJeb"
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_secret)
 api = tweepy.API(auth, wait_on_rate_limit=True, wait_on_rate_limit_notify=True)
